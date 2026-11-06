@@ -1,0 +1,20 @@
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "AgriYield Run",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "python": "${workspaceFolder}/.venv/Scripts/python.exe",
+      "serverReadyAction": {
+        "pattern": "Running on (http://127\\.0\\.0\\.1:5000)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
+    }
+  ]
+}

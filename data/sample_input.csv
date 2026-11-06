@@ -1,0 +1,4 @@
+crop,soil_type,rainfall,temperature,humidity,nitrogen,phosphorus,potassium,ph,area_hectares
+Rice,Alluvial,1100,27,78,100,50,55,6.4,2.5
+Wheat,Loamy,450,20,55,80,40,35,6.8,1.2
+Maize,Black,700,26,62,90,45,50,6.7,3
