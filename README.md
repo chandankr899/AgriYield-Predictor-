@@ -1,3 +1,4 @@
+
 # AgriYield Predictor — Full-Stack Major Project
 
 A runnable crop-yield prediction prototype based on the AgriYield project brief. Built with Python, Flask, scikit-learn, SQLite, HTML, CSS and JavaScript.
@@ -40,7 +41,6 @@ Run tests: `pytest -q`
 | GET | `/api/history` | Latest saved predictions |
 | POST | `/api/predict` | JSON prediction |
 | POST | `/api/batch` | CSV upload; returns enriched CSV in JSON |
-
 Prediction JSON keys: `crop`, `soil_type`, `rainfall`, `temperature`, `humidity`, `nitrogen`, `phosphorus`, `potassium`, `ph`, `area_hectares`. Download sample at `/static/sample_input.csv`.
 
 ## Architecture
@@ -51,16 +51,8 @@ Browser form/CSV upload → Flask routes → validation → scikit-learn preproc
 
 The displayed tree-spread range is a model variation estimate, not a calibrated confidence interval. Production improvements: real datasets, temporal/region-based validation, SHAP, calibrated intervals, authentication, model versioning, drift monitoring and deployment hardening.
 
-## Publish on GitHub
-Create a public repository named `agriyields-predictor`, then:
-
-```bash
-git init
-git add .
-git commit -m "Build AgriYield full-stack ML predictor"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/agriyields-predictor.git
-git push -u origin main
-```
-
 Add screenshots and a short demo video after running locally. Do not upload `.venv`, secrets or private data.
+
+# AgriYield-Predictor-
+Full Stack Machine Learning Yield Prediction Project
+
